@@ -50,7 +50,7 @@ class Pacman:
 
 
 if __name__ == '__main__':
-    pacman = Pacman(20, .1)
+    pacman = Pacman(32, .5)
     try:
         pacman.play()
     except KeyboardInterrupt:
